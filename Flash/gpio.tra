@@ -1,0 +1,57 @@
+*** Creating Trace Output File '.\Flash\gpio.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_stm32f4xx.o"'
+### List of Objects: adding '".\flash\system_stm32f4xx.o"'
+### List of Objects: adding '".\flash\retarget.o"'
+### List of Objects: adding '".\flash\serial.o"'
+### List of Objects: adding '".\flash\delay.o"'
+### List of Objects: adding '".\flash\misc.o"'
+### List of Objects: adding '".\flash\stm32f4_discovery.o"'
+### List of Objects: adding '".\flash\stm32f4xx_adc.o"'
+### List of Objects: adding '".\flash\stm32f4xx_can.o"'
+### List of Objects: adding '".\flash\stm32f4xx_crc.o"'
+### List of Objects: adding '".\flash\stm32f4xx_cryp.o"'
+### List of Objects: adding '".\flash\stm32f4xx_cryp_aes.o"'
+### List of Objects: adding '".\flash\stm32f4xx_cryp_des.o"'
+### List of Objects: adding '".\flash\stm32f4xx_cryp_tdes.o"'
+### List of Objects: adding '".\flash\stm32f4xx_dac.o"'
+### List of Objects: adding '".\flash\stm32f4xx_dbgmcu.o"'
+### List of Objects: adding '".\flash\stm32f4xx_dcmi.o"'
+### List of Objects: adding '".\flash\stm32f4xx_dma.o"'
+### List of Objects: adding '".\flash\stm32f4xx_exti.o"'
+### List of Objects: adding '".\flash\stm32f4xx_flash.o"'
+### List of Objects: adding '".\flash\stm32f4xx_fsmc.o"'
+### List of Objects: adding '".\flash\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\flash\stm32f4xx_hash.o"'
+### List of Objects: adding '".\flash\stm32f4xx_hash_md5.o"'
+### List of Objects: adding '".\flash\stm32f4xx_hash_sha1.o"'
+### List of Objects: adding '".\flash\stm32f4xx_i2c.o"'
+### List of Objects: adding '".\flash\stm32f4xx_iwdg.o"'
+### List of Objects: adding '".\flash\stm32f4xx_pwr.o"'
+### List of Objects: adding '".\flash\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\flash\stm32f4xx_rng.o"'
+### List of Objects: adding '".\flash\stm32f4xx_rtc.o"'
+### List of Objects: adding '".\flash\stm32f4xx_sdio.o"'
+### List of Objects: adding '".\flash\stm32f4xx_spi.o"'
+### List of Objects: adding '".\flash\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\flash\stm32f4xx_tim.o"'
+### List of Objects: adding '".\flash\stm32f4xx_usart.o"'
+### List of Objects: adding '".\flash\stm32f4xx_wwdg.o"'
+### List of Objects: adding '".\flash\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\flash\startup_stm32f4xx.o" ".\flash\system_stm32f4xx.o" ".\flash\retarget.o" ".\flash\serial.o" ".\flash\delay.o" ".\flash\misc.o" ".\flash\stm32f4_discovery.o" ".\flash\stm32f4xx_adc.o" ".\flash\stm32f4xx_can.o" ".\flash\stm32f4xx_crc.o" ".\flash\stm32f4xx_cryp.o" ".\flash\stm32f4xx_cryp_aes.o" ".\flash\stm32f4xx_cryp_des.o" ".\flash\stm32f4xx_cryp_tdes.o" ".\flash\stm32f4xx_dac.o" ".\flash\stm32f4xx_dbgmcu.o" ".\flash\stm32f4xx_dcmi.o" ".\flash\stm32f4xx_dma.o" ".\flash\stm32f4xx_exti.o" ".\flash\stm32f4xx_flash.o" ".\flash\stm32f4xx_fsmc.o" ".\flash\stm32f4xx_gpio.o" ".\flash\stm32f4xx_hash.o" ".\flash\stm32f4xx_hash_md5.o" ".\flash\stm32f4xx_hash_sha1.o" ".\flash\stm32f4xx_i2c.o" ".\flash\stm32f4xx_iwdg.o" ".\flash\stm32f4xx_pwr.o" ".\flash\stm32f4xx_rcc.o" ".\flash\stm32f4xx_rng.o" ".\flash\stm32f4xx_rtc.o" ".\flash\stm32f4xx_sdio.o" ".\flash\stm32f4xx_spi.o" ".\flash\stm32f4xx_syscfg.o" ".\flash\stm32f4xx_tim.o" ".\flash\stm32f4xx_usart.o" ".\flash\stm32f4xx_wwdg.o" ".\flash\main.o" 
+--strict --scatter ".\Flash\gpio.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\gpio.map" -o .\Flash\gpio.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\gpio.axf'
+### ADS-LD Command File: '.\Flash\gpio.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\gpio.lnp', Handle=0x00000584
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\gpio.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
