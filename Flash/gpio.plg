@@ -3,7 +3,929 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-\\userfs\lt696\w2k\systems-assessment\gpio.uvproj
-Project File Date:  05/06/2016
+C:\temp\lt696\systems-assessment\gpio.uvproj
+Project File Date:  05/13/2016
 
 <h2>Output:</h2>
+Build target 'STM32F407 Flash'
+linking...
+Program Size: Code=7372 RO-data=424 RW-data=44 ZI-data=5220  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(54): error:  #20: identifier "button_init9" is undefined
+main.c(54): error:  #65: expected a ";"
+main.c(87): warning:  #223-D: function "GPIO_Read" declared implicitly
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(54): error:  #20: identifier "button_init9" is undefined
+main.c(54): error:  #65: expected a ";"
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(54): warning:  #223-D: function "button_init" declared implicitly
+linking...
+.\Flash\gpio.axf: Error: L6218E: Undefined symbol button_init (referred from main.o).
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(54): warning:  #223-D: function "button_init" declared implicitly
+linking...
+.\Flash\gpio.axf: Error: L6218E: Undefined symbol button_init (referred from main.o).
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7456 RO-data=424 RW-data=44 ZI-data=5220  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7472 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(79): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7496 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7492 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7492 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7492 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+main.c(81): warning:  #177-D: variable "gpio_in" was declared but never referenced
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(90): error:  #65: expected a ";"
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7488 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7484 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7476 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=7480 RO-data=424 RW-data=48 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(54): warning:  #223-D: function "lcd_init" declared implicitly
+linking...
+.\Flash\gpio.axf: Error: L6218E: Undefined symbol lcd_init (referred from main.o).
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+compiling lcd.c...
+linking...
+Program Size: Code=8136 RO-data=424 RW-data=52 ZI-data=5220  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(87): error:  #65: expected a ";"
+main.c(102): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(79): warning:  #177-D: variable "gpio_out" was declared but never referenced
+main.c(80): warning:  #177-D: variable "seconds_passed" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8180 RO-data=424 RW-data=52 ZI-data=5220  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8184 RO-data=424 RW-data=52 ZI-data=5220  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(15): error:  #40: expected an identifier
+main.c(15): error:  #65: expected a ";"
+main.c(16): error:  #40: expected an identifier
+main.c(16): error:  #65: expected a ";"
+main.c(17): error:  #40: expected an identifier
+main.c(17): error:  #65: expected a ";"
+main.c(106): error:  #20: identifier "label_bpm" is undefined
+main.c(106): warning:  #224-D: the format string requires additional arguments
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(106): error:  #167: argument of type "char (*)[4]" is incompatible with parameter of type "char *restrict"
+main.c(106): warning:  #224-D: the format string requires additional arguments
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(106): error:  #158: expression must be an lvalue or a function designator
+main.c(106): warning:  #224-D: the format string requires additional arguments
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(61): warning:  #223-D: function "malloc" declared implicitly
+main.c(61): error:  #513: a value of type "int" cannot be assigned to an entity of type "char *"
+main.c(108): error:  #158: expression must be an lvalue or a function designator
+main.c(108): warning:  #224-D: the format string requires additional arguments
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(109): error:  #158: expression must be an lvalue or a function designator
+main.c(109): warning:  #224-D: the format string requires additional arguments
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(109): warning:  #224-D: the format string requires additional arguments
+linking...
+Program Size: Code=8828 RO-data=424 RW-data=72 ZI-data=5216  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(60): error:  #20: identifier "label_bpm" is undefined
+main.c(107): warning:  #224-D: the format string requires additional arguments
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(60): error:  #20: identifier "label_bpm" is undefined
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8280 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8300 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8256 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8564 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8516 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8516 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8516 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(28): warning:  #40-D: expected an identifier
+main.c(69): error:  #119: cast to type "ButtonState" is not allowed
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8516 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8536 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(75): error:  #65: expected a ";"
+main.c(87): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(65): warning:  #177-D: variable "button_state" was declared but never referenced
+main.c(125): error:  #20: identifier "button_state" is undefined
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(125): error:  #20: identifier "button_state" is undefined
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8572 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8604 RO-data=424 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8652 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8684 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8684 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8684 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8680 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8684 RO-data=444 RW-data=60 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8720 RO-data=444 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8756 RO-data=444 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(142): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=10008 RO-data=444 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(142): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=10008 RO-data=444 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=9806 RO-data=442 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=13216 RO-data=600 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=13444 RO-data=620 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14114 RO-data=618 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10194 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10918 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10578 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10918 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10918 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10918 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=10918 RO-data=442 RW-data=64 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=68 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=72 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(130): warning:  #177-D: variable "seconds_passed" was declared but never referenced
+linking...
+Program Size: Code=14730 RO-data=618 RW-data=72 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(167): warning:  #174-D: expression has no effect
+main.c(167): error:  #65: expected a ";"
+main.c(130): warning:  #177-D: variable "seconds_passed" was declared but never referenced
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14762 RO-data=618 RW-data=72 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14422 RO-data=618 RW-data=72 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+linking...
+Program Size: Code=14422 RO-data=618 RW-data=72 ZI-data=5240  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14602 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(130): warning:  #177-D: variable "gpio_out" was declared but never referenced
+linking...
+Program Size: Code=14630 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(130): warning:  #177-D: variable "gpio_out" was declared but never referenced
+linking...
+Program Size: Code=14630 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14638 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14642 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14642 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14642 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14642 RO-data=618 RW-data=76 ZI-data=5236  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(73): error:  #147: declaration is incompatible with "uint32_t tap_samples[6]" (declared at line 72)
+main.c(133): error:  #7: unrecognized token
+main.c(133): error:  #29: expected an expression
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(73): error:  #147: declaration is incompatible with "uint32_t tap_samples[6]" (declared at line 72)
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14734 RO-data=618 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14738 RO-data=618 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14774 RO-data=618 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(165): error:  #20: identifier "site_t" is undefined
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(165): error:  #20: identifier "site_t" is undefined
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=14814 RO-data=618 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11086 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(140): error:  #20: identifier "i" is undefined
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11094 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(153): error:  #65: expected a ";"
+Target not created
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11182 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(171): error:  #18: expected a ")"
+main.c(217): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(217): error:  #127: expected a statement
+main.c(219): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11182 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11182 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11282 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11282 RO-data=442 RW-data=76 ZI-data=5260  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
