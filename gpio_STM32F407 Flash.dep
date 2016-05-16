@@ -1264,13 +1264,14 @@ I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x4EFB4AD8)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x4EFB4AD8)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EFB4AD8)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EFB4AD8)
-F (.\main.c)(0x57360F82)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\Device\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -o ".\Flash\main.o" --omf_browse ".\Flash\main.crf" --depend ".\Flash\main.d")
+F (.\main.c)(0x573A5396)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\Device\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -o ".\Flash\main.o" --omf_browse ".\Flash\main.crf" --depend ".\Flash\main.d")
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB15116)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB15114)
+I (C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB15114)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EFB4AD8)
 I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x4F856B84)
 I (.\Libraries\CMSIS\Include\core_cm4.h)(0x4EFB4AD8)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB15114)
 I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x4EFB4AD8)
 I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x4EFB4AD8)
 I (.\Libraries\CMSIS\Include\core_cm4_simd.h)(0x4EFB4AD8)
@@ -1302,7 +1303,6 @@ I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x4EFB4AD8)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x4EFB4AD8)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EFB4AD8)
 I (delay.h)(0x517014B9)
-I (C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h)(0x4EB15114)
 I (serial.h)(0x536CE86F)
 I (lcd.h)(0x536CF7C6)
 F (.\lcd.c)(0x536CF7C6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\Device\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F4xx -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -o ".\Flash\lcd.o" --omf_browse ".\Flash\lcd.crf" --depend ".\Flash\lcd.d")
