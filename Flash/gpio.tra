@@ -49,7 +49,7 @@
 ### ADS-LD Output File: '.\Flash\gpio.axf'
 ### ADS-LD Command File: '.\Flash\gpio.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\Flash\gpio.lnp', Handle=0x00000420
+### Creating CmdFile '.\Flash\gpio.lnp', Handle=0x00000404
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\Flash\gpio.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

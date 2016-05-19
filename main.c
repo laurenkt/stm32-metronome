@@ -87,7 +87,7 @@ uint64_t ms_passed = 0;
 uint64_t timestamp_last_beat = 0;
 
 // When this is high, the LCD will be updated and then lowered again. Prevents unnecessary rewrites.
-bool     lcd_update_pending = false;
+bool     lcd_update_pending = true; // Needs to start high for first draw
 
 // These are used so the tap tempo implementation can track previous taps to take averages
 uint64_t tap_samples[MAX_TAP_TEMPO_SAMPLES] = { 0 }; // Initialise to zeros

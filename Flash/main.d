@@ -12,7 +12,7 @@
 .\Flash\main.o: .\Libraries\CMSIS\Include\core_cmFunc.h
 .\Flash\main.o: .\Libraries\CMSIS\Include\core_cm4_simd.h
 .\Flash\main.o: C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h
-.\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h
+.\Flash\main.o: C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx_conf.h
 .\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
 .\Flash\main.o: C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h
 .\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
