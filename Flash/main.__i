@@ -1,5 +1,0 @@
--c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\Device\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc --c99 
--I C:\Keil\ARM\RV31\INC 
--I C:\Keil\ARM\CMSIS\Include 
--I C:\Keil\ARM\Inc\ST\STM32F4xx 
--DSTM32F40XX -DUSE_STDPERIPH_DRIVER -o ".\Flash\main.o" --omf_browse ".\Flash\main.crf" --depend ".\Flash\main.d" "main.c"

@@ -3,6 +3,8 @@
 .\Flash\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 .\Flash\main.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
 .\Flash\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Flash\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\Flash\main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
 .\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
 .\Flash\main.o: C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h
 .\Flash\main.o: .\Libraries\CMSIS\Include\core_cm4.h
@@ -39,5 +41,4 @@
 .\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h
 .\Flash\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
 .\Flash\main.o: delay.h
-.\Flash\main.o: serial.h
 .\Flash\main.o: lcd.h

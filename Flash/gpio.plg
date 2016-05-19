@@ -4,10 +4,97 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 C:\temp\lt696\systems-assessment\gpio.uvproj
-Project File Date:  05/16/2016
+Project File Date:  05/17/2016
 
 <h2>Output:</h2>
 Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(87): warning:  #951-D: return type of function "main" must be "int"
+main.c(100): warning:  #223-D: function "set_tempo" declared implicitly
+main.c(107): warning:  #223-D: function "handle_event" declared implicitly
+main.c(107): error:  #20: identifier "tap_tempo_recalculate" is undefined
+main.c(108): error:  #20: identifier "tempo_increase" is undefined
+main.c(109): error:  #20: identifier "tempo_decrease" is undefined
+main.c(110): error:  #20: identifier "synchronise" is undefined
+main.c(111): error:  #20: identifier "timesig_increase" is undefined
+main.c(112): error:  #20: identifier "timesig_decrease" is undefined
+main.c(164): error:  #159: declaration is incompatible with previous "handle_event" (declared at line 107)
+main.c(188): error:  #159: declaration is incompatible with previous "set_tempo" (declared at line 100)
+main.c(255): warning:  #223-D: function "memmove" declared implicitly
+main.c(164): warning:  #177-D: function "handle_event" was declared but never referenced
+main.c(199): warning:  #177-D: function "synchronise" was declared but never referenced
+main.c(210): warning:  #177-D: function "tempo_increase" was declared but never referenced
+main.c(211): warning:  #177-D: function "tempo_decrease" was declared but never referenced
+main.c(212): warning:  #177-D: function "timesig_increase" was declared but never referenced
+main.c(213): warning:  #177-D: function "timesig_decrease" was declared but never referenced
+main.c(222): warning:  #177-D: function "tap_tempo_recalculate" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(53): warning:  #1295-D: Deprecated declaration synchronise - give arg types
+main.c(54): warning:  #1295-D: Deprecated declaration tempo_increase - give arg types
+main.c(55): warning:  #1295-D: Deprecated declaration tempo_decrease - give arg types
+main.c(94): warning:  #951-D: return type of function "main" must be "int"
+main.c(114): error:  #20: identifier "tap_tempo_recalculate" is undefined
+main.c(262): warning:  #223-D: function "memmove" declared implicitly
+main.c(229): warning:  #177-D: function "tap_tempo_recalculate" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(94): warning:  #951-D: return type of function "main" must be "int"
+main.c(114): error:  #20: identifier "tap_tempo_recalculate" is undefined
+main.c(262): warning:  #223-D: function "memmove" declared implicitly
+main.c(229): warning:  #177-D: function "tap_tempo_recalculate" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+main.c(95): warning:  #951-D: return type of function "main" must be "int"
+main.c(115): error:  #20: identifier "tap_tempo_recalculate" is undefined
+main.c(230): warning:  #177-D: function "tap_tempo_recalculate" was declared but never referenced
+Target not created
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=11646 RO-data=642 RW-data=84 ZI-data=5292  
+".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
+Clean started: Project: 'gpio'
+   deleting intermediate output files for target 'STM32F407 Flash'
+   deleting intermediate output files for target 'STM32F407 RAM'
+Rebuild target 'STM32F407 Flash'
+assembling startup_stm32f4xx.s...
 compiling system_stm32f4xx.c...
 compiling retarget.c...
 compiling serial.c...
@@ -47,81 +134,10 @@ compiling stm32f4xx_wwdg.c...
 compiling main.c...
 compiling lcd.c...
 linking...
-Program Size: Code=11586 RO-data=642 RW-data=84 ZI-data=5260  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'STM32F407 Flash'
-compiling main.c...
-linking...
-Program Size: Code=11446 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Build target 'STM32F407 Flash'
-compiling main.c...
-main.c(125): warning:  #186-D: pointless comparison of unsigned integer with zero
-linking...
-Program Size: Code=12178 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 1 Warning(s).
-Build target 'STM32F407 Flash'
-compiling main.c...
-linking...
-Program Size: Code=12154 RO-data=642 RW-data=80 ZI-data=5264  
+Program Size: Code=11646 RO-data=642 RW-data=84 ZI-data=5292  
 ".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
 Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
 Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
 Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
 Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
 Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Build target 'STM32F407 Flash'
-linking...
-Program Size: Code=12154 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Build target 'STM32F407 Flash'
-linking...
-Program Size: Code=12154 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Build target 'STM32F407 Flash'
-linking...
-Program Size: Code=12154 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'STM32F407 Flash'
-compiling main.c...
-linking...
-Program Size: Code=12154 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'STM32F407 Flash'
-compiling main.c...
-linking...
-Program Size: Code=12010 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'STM32F407 Flash'
-compiling main.c...
-linking...
-Program Size: Code=11446 RO-data=642 RW-data=80 ZI-data=5264  
-".\Flash\gpio.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\temp\\lt696\\systems-assessment\\Flash\\gpio.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
